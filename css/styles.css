@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+body .logo img {
+    position: fixed;
+    z-index: 2;
+    padding: 5px;
+    margin-left: 5%;
+    border-radius: 100px;
+}
+
+body h2 {
+    position: fixed;
+    color: white;
+    z-index: 2;
+    padding: 30px;
+    margin-left: 10%;
+    user-select: none;
+}
+
+.navbar {
+    position: fixed;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, gold, blue);
+    border-color: lin;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    font-size: 40px;
+    background-color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+    user-select: none;
+}
+
+.navbar a {
+    font-family: "Lobster", sans-serif;
+    display: inline;
+    margin: 0 0 0 15px;
+    color: white;
+}
+
+.navbar a:hover {
+    font-size: 30px;
+    color: gold;
+}
+ .container {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background-color: black;  
+ }
+
+ .container h1 {
+    font-size: 70px;
+    color: white;
+    padding-top: 150px;
+ }
+
+ .p1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .imagem1 {
+    margin-top: 50px;
+    border-radius: 10px;
+ }
+
+ .p2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+.imagem2 {
+   margin-top: 50px;
+   border-radius: 10px;
+}
